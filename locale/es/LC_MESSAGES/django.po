@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-23 22:51+0200\n"
+"POT-Creation-Date: 2026-01-24 00:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,12 +38,28 @@ msgstr ""
 msgid "German"
 msgstr ""
 
-#: .\language\models.py:7
+#: .\language\models.py:45 .\language\models.py:54
+msgid "category"
+msgstr ""
+
+#: .\language\models.py:46
+msgid "categories"
+msgstr ""
+
+#: .\language\models.py:56
 msgid "title"
 msgstr ""
 
-#: .\language\models.py:8
+#: .\language\models.py:57
 msgid "content"
+msgstr ""
+
+#: .\language\models.py:64
+msgid "post"
+msgstr ""
+
+#: .\language\models.py:65
+msgid "posts"
 msgstr ""
 
 #: .\templates\base.html:3

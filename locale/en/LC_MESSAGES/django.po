@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-23 22:51+0200\n"
-"PO-Revision-Date: 2026-01-23 22:54+0000\n"
+"POT-Creation-Date: 2026-01-24 00:25+0200\n"
+"PO-Revision-Date: 2026-01-24 01:08+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -39,17 +39,33 @@ msgstr "Fresnch"
 msgid "German"
 msgstr "German"
 
-#: .\language\models.py:7
+#: .\language\models.py:45 .\language\models.py:54
+msgid "category"
+msgstr "category"
+
+#: .\language\models.py:46
+msgid "categories"
+msgstr "categories"
+
+#: .\language\models.py:56
 msgid "title"
 msgstr "Title"
 
-#: .\language\models.py:8
+#: .\language\models.py:57
 msgid "content"
 msgstr "content"
 
+#: .\language\models.py:64
+msgid "post"
+msgstr "posts "
+
+#: .\language\models.py:65
+msgid "posts"
+msgstr "posts"
+
 #: .\templates\base.html:3
 msgid "dir"
-msgstr "dir "
+msgstr "ltr"
 
 #: .\templates\index.html:15
 msgid "herotitle"
@@ -61,7 +77,7 @@ msgstr "age "
 
 #: .\templates\navbar.html:5
 msgid "navbar"
-msgstr "navbar"
+msgstr "mahmoud website "
 
 #: .\templates\navbar.html:12
 msgid "navbarhome"
