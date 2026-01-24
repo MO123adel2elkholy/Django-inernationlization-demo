@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-24 00:25+0200\n"
-"PO-Revision-Date: 2026-01-24 01:08+0000\n"
+"POT-Creation-Date: 2026-01-24 01:48+0200\n"
+"PO-Revision-Date: 2026-01-24 01:54+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -62,6 +62,15 @@ msgstr "posts "
 #: .\language\models.py:65
 msgid "posts"
 msgstr "posts"
+
+#: .\language\views.py:10
+#, python-brace-format
+msgid "authmessage {first} {last}"
+msgstr "welcome back again {first}{last}"
+
+#: .\language\views.py:13
+msgid "anonmessage"
+msgstr "Please login , you are't authenticated "
 
 #: .\templates\base.html:3
 msgid "dir"

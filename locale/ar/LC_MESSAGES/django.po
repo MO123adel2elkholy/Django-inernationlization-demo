@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-24 00:25+0200\n"
-"PO-Revision-Date: 2026-01-24 01:09+0000\n"
+"POT-Creation-Date: 2026-01-24 01:48+0200\n"
+"PO-Revision-Date: 2026-01-24 01:56+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: .\core\settings.py:119
 msgid "English"
-msgstr "عنجليزي"
+msgstr "انجليزي "
 
 #: .\core\settings.py:120
 msgid "Spanish"
@@ -62,6 +62,15 @@ msgstr "مقال "
 #: .\language\models.py:65
 msgid "posts"
 msgstr "مقالات"
+
+#: .\language\views.py:10
+#, python-brace-format
+msgid "authmessage {first} {last}"
+msgstr "مرحبا بعودتك مجدددا {first}{last}"
+
+#: .\language\views.py:13
+msgid "anonmessage"
+msgstr "يجب  تسجيل الدخول "
 
 #: .\templates\base.html:3
 msgid "dir"
