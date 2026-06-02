@@ -3,8 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+db.sqlite3
 # C extensions
 *.so
+/django_internationalization-main/
 
 # Distribution / packaging
 .Python
