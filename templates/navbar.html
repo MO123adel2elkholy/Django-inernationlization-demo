@@ -21,12 +21,12 @@
                         {% get_language_info_list for AVAILABLE_LANGUAGES as languages %}
 
                         <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Change Language
+                            {% trans 'Change Language' %}
                         </button>
                         <ul class="dropdown-menu">
                             {% for language in languages %}
                                 <li>
-                                    <a class="dropdown-item {% if language.code == CURRENT_LANGUAGE %}active{% endif %}" href="{% if language.code == 'en' %}/{% else %}/{{ language.code }}/{% endif %}">{{ language.name_local }}</a>
+                                    <a class="dropdown-item {% if language.code == CURRENT_LANGUAGE %}active{% endif %}" href="{% if language.code == 'en' %}/{% else %}/{{ language.code }}/{% endif %}">{% trans language.name_local %}</a>
                                 </li>
                             {% endfor %}
                         </ul>
