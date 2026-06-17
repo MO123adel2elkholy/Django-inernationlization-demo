@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -12,7 +11,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,81 +19,81 @@ msgstr ""
 
 #: .\core\settings.py:119
 msgid "English"
-msgstr ""
+msgstr "Englisch"
 
 #: .\core\settings.py:120
 msgid "Spanish"
-msgstr ""
+msgstr "Spanisch"
 
 #: .\core\settings.py:121
 msgid "Arabic"
-msgstr ""
+msgstr "Arabisch"
 
 #: .\core\settings.py:122
 msgid "French"
-msgstr ""
+msgstr "Französisch"
 
 #: .\core\settings.py:123
 msgid "German"
-msgstr ""
+msgstr "Deutsch"
 
 #: .\language\models.py:45 .\language\models.py:54
 msgid "category"
-msgstr ""
+msgstr "Kategorie"
 
 #: .\language\models.py:46
 msgid "categories"
-msgstr ""
+msgstr "Kategorien"
 
 #: .\language\models.py:56
 msgid "title"
-msgstr ""
+msgstr "Titel"
 
 #: .\language\models.py:57
 msgid "content"
-msgstr ""
+msgstr "Inhalt"
 
 #: .\language\models.py:64
 msgid "post"
-msgstr ""
+msgstr "Beitrag"
 
 #: .\language\models.py:65
 msgid "posts"
-msgstr ""
+msgstr "Beiträge"
 
 #: .\language\views.py:10
 #, python-brace-format
 msgid "authmessage {first} {last}"
-msgstr ""
+msgstr "Authentifizierte Nachricht {first} {last}"
 
 #: .\language\views.py:13
 msgid "anonmessage"
-msgstr ""
+msgstr "Anonyme Nachricht"
 
 #: .\templates\base.html:3
 msgid "dir"
-msgstr ""
+msgstr "ltr"
 
 #: .\templates\index.html:15
 msgid "herotitle"
-msgstr ""
+msgstr "Haupttitel"
 
 #: .\templates\index.html:22
 msgid "ago"
-msgstr ""
+msgstr "vor"
 
 #: .\templates\navbar.html:5
 msgid "navbar"
-msgstr ""
+msgstr "Navigationsleiste"
 
 #: .\templates\navbar.html:12
 msgid "navbarhome"
-msgstr ""
+msgstr "Startseite"
 
 #: .\templates\navbar.html:15
 msgid "navbarfeatures"
-msgstr ""
+msgstr "Funktionen"
 
 #: .\templates\navbar.html:24
 msgid "Change Language"
-msgstr ""
+msgstr "Sprache ändern"
